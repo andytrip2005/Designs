@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andy Tripathy - Designs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        background-color: #121212;
+        color: #f0f0f0;
+      }
+
+      .back-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        padding: 12px 24px;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: #ffffff;
+        background: linear-gradient(135deg, #1b3c8c, #6bbfff);
+        border: 2px solid #5aaaff;
+        border-radius: 12px;
+        text-decoration: none;
+        z-index: 1000;
+        box-shadow: 0 0 18px #6bbfff;
+        transition: all 0.3s ease;
+      }
+
+      .back-button:hover {
+        background: linear-gradient(135deg, #2556b0, #89ceff);
+        box-shadow: 0 0 28px #89ceff, 0 0 38px #c1e9ff;
+        color: #fff;
+        border-color: #ffffff;
+      }
+
+      header {
+        text-align: center;
+        background-color: #1a1a1a;
+        padding: 20px 10px;
+      }
+
+      header h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.6em;
+        color: #b3daff;
+        margin: 0;
+      }
+
+      header p {
+        color: #6bbfff;
+        font-size: 0.9em;
+      }
+
+      .design-gallery {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .design {
+        background: linear-gradient(135deg, #1e3a5f, #5aaaff);
+        border: 2px solid #6bbfff;
+        border-radius: 12px;
+        padding: 10px;
+        width: 250px;
+        flex-shrink: 0;
+        box-shadow: 0 0 15px #6bbfff80;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-size: 200% 200%;
+        animation: metallicShift 6s linear infinite;
+        cursor: pointer;
+      }
+
+      .design:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 0 25px #6bbfff;
+      }
+
+      .design h3 {
+        font-family: 'Orbitron', sans-serif;
+        margin-top: 10px;
+        font-size: 1em;
+        color: #e5f5ff;
+      }
+
+      .design p {
+        color: #ccc;
+        font-size: 0.8em;
+      }
+
+      .design img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        border: 2px solid #444;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .thumbnail-link:hover img {
+        border-color: #6bbfff;
+        box-shadow: 0 0 10px #6bbfff;
+      }
+
+      @keyframes metallicShift {
+        0% {
+          background-position: 0% 50%;
+        }
+
+        50% {
+          background-position: 100% 50%;
+        }
+
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .view-button {
+        background-color: transparent;
+        border: 1px solid #6bbfff;
+        color: #6bbfff;
+        padding: 8px 14px;
+        margin-top: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: 'Orbitron', sans-serif;
+      }
+
+      .view-button:hover {
+        background-color: #6bbfff;
+        color: #121212;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.75em;
+        background-color: #1a1a1a;
+        color: #888;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <a href="https://andytrip2005.github.io/FINAL228-LANDING/" class="back-button"> ← Back to Home </a>
+
+    <header>
+      <h1>Design Projects</h1>
+      <p>A collection of my digital design work across different platforms</p>
+    </header>
+
+    <section class="design-gallery">
+      <div class="design">
+        <a href="https://www.figma.com/proto/O1OpbJwzGzHQCpxlsEONU2/GBDA210-final?node-id=2207-418&t=NNI0CUWc7Qim1J3u-1" target="_blank" class="thumbnail-link">
+          <img src="InterLinkFigma.png" alt="Figma Design">
+        </a>
+        <h3>Mobile App UI - InterLink</h3>
+        <p>Designed in Figma - UX/UI focused high fidelity prototype for a mobile experience - App for Students to find activties around campus including finding others with similar interests to go with. Scrollable and Clickable</p>
+        <a href="https://www.figma.com/proto/O1OpbJwzGzHQCpxlsEONU2/GBDA210-final?node-id=2207-418&t=NNI0CUWc7Qim1J3u-1" target="_blank">
+          <button class="view-button">View Design</button>
+        </a>
+      </div>
+
+      <div class="design">
+        <a href="https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:86a26bc0-d413-405e-bb6f-f4a624b49c1d?category=search" target="_blank" class="thumbnail-link">
+          <img src="firehousesubs.png" alt="Illustrator Art">
+        </a>
+        <h3>Firehouse Subs ReDesign</h3>
+        <p>Designed in Adobe Illustrator, Photoshop, & Express. Redesign of Firehouse subs logo, brand image, and products. This link opens the presentation</p>
+        <a href="https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:86a26bc0-d413-405e-bb6f-f4a624b49c1d?category=search" target="_blank">
+          <button class="view-button">View Design</button>
+        </a>
+      </div>
+
+      <div class="design">
+        <a href="https://drive.google.com/file/d/1lkF36lJLRKNVzB49tMHxm2mNzeLFUk4c/view?usp=sharing" target="_blank" class="thumbnail-link">
+          <img src="thumbnail228p1.jpg" alt="Poster Design">
+        </a>
+        <h3>Personality Triptych </h3>
+        <p>3 Posters created using photoshop and illustrator showcasing my pernsonal style when it comes to stylistic design / filmaking. Give it a second to load</p>
+        <a href="https://drive.google.com/file/d/1lkF36lJLRKNVzB49tMHxm2mNzeLFUk4c/view?usp=sharing" target="_blank">
+          <button class="view-button">View Design</button>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Andy Tripathy – Design Portfolio – April 2025</p>
+    </footer>
+  </body>
+</html>

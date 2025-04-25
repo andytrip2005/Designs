@@ -1,2 +1,2 @@
-# MyDesigns2
+# Designs
 ◕ ◞ ◕ This project was made using https://netnet.studio
